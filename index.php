@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P01</title>
-</head>
+<?php require_once('assets/init.php'); ?>
+
 <body>
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include ($IPATH."headernav.php") ?>
-    <?php include ($IPATH."footer.php") ?>
+    <?php require_once('assets/headernav.php'); ?>
+    <div class="hero owl-carousel owl-theme">
+        <div class="item">
+            <img src="images/something.jpeg" alt=""> 
+        </div>
+        <div class="item">
+            <img src="images/stock camera 2.jpeg" alt=""> 
+        </div>
+        <div class="item">
+            <img src="images/stock camera.jpeg" alt=""> 
+        </div>
+        
+    </div> <!-- hero  -->
+    <?php require_once('assets/footer.php') ?>
 </body>
+
 </html>
