@@ -36,9 +36,9 @@ $(document).ready(function(){
 
 	selector.owlCarousel({
 		autoplay: true,
-		slideTransition: 'linear',
-		autoplayTimeout: 5000,
-		autoplaySpeed: 5000,
+		//slideTransition: 'linear',
+		autoplayTimeout: 3500,
+		autoplaySpeed: 250,
 		autoplayHoverPause: true,
 		loop: true,
 		margin: 0,
