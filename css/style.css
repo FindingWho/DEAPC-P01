@@ -32,5 +32,25 @@ img {
 }
 
 .hero img {
-    height: 700px;
+    height: 600px;
 }
+
+/* Menu Navigation */
+
+.menu-nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.menu-nav .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*---------------------------------------------------*/
+
+/* PRODUCTS */
+
