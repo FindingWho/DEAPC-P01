@@ -34,3 +34,51 @@ img {
 .hero img {
     height: 700px;
 }
+
+.isep-logo img {
+    width: 500px;
+    height: 200px;
+}
+
+.our-pics img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    color: #444444;
+}
+
+a:link {
+    color: #4062BB;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    color: #55008E;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.article {
+    display: flex;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    align-items: center;
+
+}
+
+.article p {
+    padding: 20px;
+}
+
+.article img {
+    margin-bottom: 100px;
+}
+
+h1,h2,h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+} 
