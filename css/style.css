@@ -19,6 +19,12 @@ html, body {
     overflow-x: hidden;
 }
 
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -26,9 +32,18 @@ img {
 }
 
 .container {
-    width: 1170px;
+    width: 1584px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.section-padding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.hero {
+    display: none !important;
 }
 
 .hero img {
@@ -36,6 +51,10 @@ img {
 }
 
 /* Menu Navigation */
+
+.menu-nav {
+    background-color: rgb(197, 197, 197);
+}
 
 .menu-nav .container {
     display: flex;
@@ -54,3 +73,17 @@ img {
 
 /* PRODUCTS */
 
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+}
+
+.product {
+    width: calc(100%/4);
+}
+
+.product img{
+    width: 100%;
+}

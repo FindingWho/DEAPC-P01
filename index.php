@@ -14,14 +14,67 @@
             <img src="images/stock camera.jpeg" alt=""> 
         </div>
     </div> <!-- hero  -->
+    <div class="container">
+        <div class="featured-products section-padding">
+            <?php //for i=0;i=10? ... fetch from database ...  ?>
 
-    <div class="featured-products container">
-        <?php //for i=0;i=10? ... fetch from database ...  ?>
-        <div class="product">
-            <img src="images/computer.jpg" alt="testing">
-            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+            <div class="product">
+                <div class="prod-img">
+                    <img src="images/computer.jpg" alt="testing">
+                </div>
+                
+                <div class="prod-title">
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                
+            </div>
+
+            <div class="product">
+                <div class="prod-img">
+                    <img src="images/computer.jpg" alt="testing">
+                </div>
+                
+                <div class="prod-title">
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                
+            </div>
+
+            <div class="product">
+                <div class="prod-img">
+                    <img src="images/computer.jpg" alt="testing">
+                </div>
+                
+                <div class="prod-title">
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                
+            </div>
+
+            <div class="product">
+                <div class="prod-img">
+                    <img src="images/computer.jpg" alt="testing">
+                </div>
+                
+                <div class="prod-title">
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                
+            </div>
+
+            <div class="product">
+                <div class="prod-img">
+                    <img src="images/computer.jpg" alt="testing">
+                </div>
+                
+                <div class="prod-title">
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                
+            </div>
         </div>
     </div>
+    
     <?php require_once('assets/footer.php') ?>
 </body>
 </html>
