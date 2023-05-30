@@ -24,7 +24,7 @@
                 </div>
                 
                 <div class="prod-title">
-                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 
             </div>
@@ -35,7 +35,7 @@
                 </div>
                 
                 <div class="prod-title">
-                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 
             </div>
@@ -46,7 +46,7 @@
                 </div>
                 
                 <div class="prod-title">
-                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 
             </div>
@@ -57,7 +57,7 @@
                 </div>
                 
                 <div class="prod-title">
-                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 
             </div>
@@ -68,7 +68,7 @@
                 </div>
                 
                 <div class="prod-title">
-                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 
             </div>
