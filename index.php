@@ -20,7 +20,7 @@
 
             <div class="product">
                 <div class="prod-img">
-                    <img src="images/computer.jpg" alt="testing">
+                    <img src="images/laptop.jpg" alt="testing">
                 </div>
                 
                 <div class="prod-title">
@@ -31,7 +31,7 @@
 
             <div class="product">
                 <div class="prod-img">
-                    <img src="images/computer.jpg" alt="testing">
+                    <img src="images/laptop.jpg" alt="testing">
                 </div>
                 
                 <div class="prod-title">
@@ -42,7 +42,7 @@
 
             <div class="product">
                 <div class="prod-img">
-                    <img src="images/computer.jpg" alt="testing">
+                    <img src="images/laptop.jpg" alt="testing">
                 </div>
                 
                 <div class="prod-title">
@@ -53,7 +53,7 @@
 
             <div class="product">
                 <div class="prod-img">
-                    <img src="images/computer.jpg" alt="testing">
+                    <img src="images/laptop.jpg" alt="testing">
                 </div>
                 
                 <div class="prod-title">
@@ -64,7 +64,7 @@
 
             <div class="product">
                 <div class="prod-img">
-                    <img src="images/computer.jpg" alt="testing">
+                    <img src="images/laptop.jpg" alt="testing">
                 </div>
                 
                 <div class="prod-title">

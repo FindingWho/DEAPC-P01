@@ -82,6 +82,7 @@ img {
 
 .product {
     width: calc(100%/4);
+    padding: 15px;
 }
 
 .product img{
