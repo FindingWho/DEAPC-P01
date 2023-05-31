@@ -19,6 +19,12 @@ html, body {
     overflow-x: hidden;
 }
 
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -26,11 +32,59 @@ img {
 }
 
 .container {
-    width: 1170px;
+    width: 1584px;
     max-width: 100%;
     margin: 0 auto;
 }
 
+.section-padding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.hero {
+    display: none !important;
+}
+
 .hero img {
-    height: 700px;
+    height: 600px;
+}
+
+/* Menu Navigation */
+
+.menu-nav {
+    background-color: rgb(197, 197, 197);
+}
+
+.menu-nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.menu-nav .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*---------------------------------------------------*/
+
+/* PRODUCTS */
+
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+}
+
+.product {
+    width: calc(100%/4);
+    padding: 15px;
+}
+
+.product img{
+    width: 100%;
 }
