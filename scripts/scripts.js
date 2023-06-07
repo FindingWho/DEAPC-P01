@@ -3,42 +3,12 @@ $(document).ready(function(){
 		new WOW().init();
 	});
 
-	//$('.select').selectpicker();
-
-	/*$(function(){
-		$("#conf").click(function(e){
-
-			var ingr = [];
-			$.each($(".select option:selected"), function(){
-				ingr.push($(this).val()); //todos os itens selecionados são guardados no array ingr
-			});
-
-			var conj = ingr.join("%' and ingredientes like '%"); //junta o array numa só linha para fazer a pesquisa na DB máis rápida e fácil
-
-			$.post('load.php', {conj: conj}, function(data){
-		     $('.receitas-show .show').html(data);
-			});
-		});
-	});*/
-
-	/*$(function(){
-		$.scrollIt({
-			upKey: 38,
-			downKey: 40,
-			easing: 'linear',
-			scrollTime: 600,
-			activeClass: 'active',
-			topOffset: 0
-		});
-	});*/
-
 	var selector = $(".hero");
 
 	selector.owlCarousel({
 		autoplay: true,
-		slideTransition: 'linear',
-		autoplayTimeout: 5000,
-		autoplaySpeed: 5000,
+		autoplayTimeout: 3500,
+		autoplaySpeed: 250,
 		autoplayHoverPause: true,
 		loop: true,
 		margin: 0,
@@ -51,8 +21,17 @@ $(document).ready(function(){
 		},
 	})
 
-	/*$("#suggestion").click(function(){
-		$('.receita-recomendada .show').load('load-random.php');
-		$(this).textContent('Outra Por Favor😲');
-	});*/
+	$('.product .prod-img img').hover(function() {
+		$(this).toggleClass('zoomfilter');
+	})
+
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 80) {
+			$('.menu-nav').addClass('scroll');
+		}
+		else {
+			$('.menu-nav').removeClass('scroll');
+		}
+
+	})
 });
