@@ -20,4 +20,18 @@ $(document).ready(function(){
 			setTimeout(function() {selector.trigger('play.owl.autoplay')}, 20)
 		},
 	})
+
+	$('.product .prod-img img').hover(function() {
+		$(this).toggleClass('zoomfilter');
+	})
+
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 80) {
+			$('.menu-nav').addClass('scroll');
+		}
+		else {
+			$('.menu-nav').removeClass('scroll');
+		}
+
+	})
 });

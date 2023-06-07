@@ -19,59 +19,66 @@
             <?php //for i=0;i=10? ... fetch from database ...  ?>
 
             <div class="product">
-                <div class="prod-img">
-                    <img src="images/laptop.jpg" alt="testing">
-                </div>
-                
-                <div class="prod-title">
-                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                
+                <a href="">
+                    <div class="prod-img">
+                        <img src="images/laptop.jpg" alt="testing">
+                    </div>
+                    
+                    <div class="prod-title">
+                        <h3>Lorem ipsum dolor sit amet consectetur. </h3>
+                    </div>
+                </a> 
             </div>
 
             <div class="product">
-                <div class="prod-img">
-                    <img src="images/laptop.jpg" alt="testing">
-                </div>
-                
-                <div class="prod-title">
-                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                
+                <a href="">
+                    <div class="prod-img">
+                        <img src="images/laptop.jpg" alt="testing">
+                    </div>
+                    
+                    <div class="prod-title">
+                        <h3>Lorem ipsum dolor sit amet consectetur. </h3>
+                    </div>
+                </a> 
             </div>
 
             <div class="product">
-                <div class="prod-img">
-                    <img src="images/laptop.jpg" alt="testing">
-                </div>
-                
-                <div class="prod-title">
-                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                
+                <a href="">
+                    <div class="prod-img">
+                        <img src="images/laptop.jpg" alt="testing">
+                    </div>
+                    
+                    <div class="prod-title">
+                        <h3>Lorem ipsum dolor sit amet consectetur. </h3>
+                    </div>
+                </a> 
             </div>
 
             <div class="product">
-                <div class="prod-img">
-                    <img src="images/laptop.jpg" alt="testing">
-                </div>
-                
-                <div class="prod-title">
-                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                
+                <a href="">
+                    <div class="prod-img">
+                        <img src="images/laptop.jpg" alt="testing">
+                    </div>
+                    
+                    <div class="prod-title">
+                        <h3>Lorem ipsum dolor sit amet consectetur. </h3>
+                    </div>
+                </a> 
             </div>
 
             <div class="product">
-                <div class="prod-img">
-                    <img src="images/laptop.jpg" alt="testing">
-                </div>
-                
-                <div class="prod-title">
-                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                
+                <a href="">
+                    <div class="prod-img">
+                        <img src="images/laptop.jpg" alt="testing">
+                    </div>
+                    
+                    <div class="prod-title">
+                        <h3>Lorem ipsum dolor sit amet consectetur. </h3>
+                    </div>
+                </a> 
             </div>
+
+            
         </div>
     </div>
     
