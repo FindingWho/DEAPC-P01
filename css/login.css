@@ -1,27 +1,151 @@
 .login{
 	width: 30%;
-	height: auto;
+	height: 600px;
 	position: absolute;
-	top:35%;
-	left: 33%;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%, 45%);
 	margin: auto;
-	background-color: beige;
-	padding: 10px;
+	box-shadow: 0 10px 25px gainsboro;
 }
 
 .login_form{
 	justify-content: center;
-
-
 	width: 100%;
 }
 
+.title{
+	font-size: 30px;
+	color: black;
+	margin: 5%;
+}
+
 input{
-	width: 50%;
-	margin: 2px;
+	position: relative;
+  	top: 0px;
+  	left: 0px;
+  	width: 55%;
+  	border: 1px solid #DADCE0;
+  	border-radius: 5px;
+  	font-size: 16px;
+  	margin: 10px;
+  	padding: 10px;
+	outline: none;
+  	z-index: 1;
+}
+
+input:focus {
+	border: 2px solid rgb(255,50,49) !important;
 }
 
 #button{
-	width: 50%;
-	padding: 5px;
+	display: block;
+	padding: 15px 30px;
+	border: none;
+	background-color: rgb(255,65,53);
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.5s ease;
 }
+
+#button:hover {
+	background-color: rgb(255,144,77);
+	transform: translateY(-2px);
+  }
+
+.icon{
+	width: 5%;
+	display: inline;
+}
+
+.errorMessageEmail,
+.errorMessagePass,
+.errorMessageName {
+	color: red;
+	visibility: hidden;
+	position: relative;
+	margin: 0px;
+	float: left;
+	left:25%
+	}
+
+.line {
+    margin: 5px 0 5px;
+    position: relative;
+    text-align: center;
+}
+
+.line::before{
+	background: #DDDBE9;
+	overflow: hidden;
+	content: "";
+	height: 1px;
+	position: absolute;
+	right: 2.5%;
+	top: 50%;
+	transform: translateY(50%);
+	width: 95%;
+}
+
+.line span{
+    color: #606060;
+    display: inline-block;
+    font-size: 20px;
+	top:0%;
+    position: relative;
+    z-index: 2;
+	padding: 0 15px;
+	background-color: white;
+}
+
+.link{
+	font-size: 20px;;
+}
+
+a{
+	padding: 20px;
+}
+
+a:link {
+	color: black;
+	padding: 20px;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+ a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color:rgb(255,50,49);
+	background-color: transparent;
+	cursor: pointer;
+	  
+}
+
+a:active {
+	color:rgb(255,144,77);
+	background-color: transparent;
+}
+
+/* ---------------------- Register ------------------------*/
+
+.register{
+	width: 30%;
+	height: 650px;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%, 45%);
+	margin: auto;
+	box-shadow: 0 10px 25px gainsboro;
+}
+
+/*escuro - rgb(255,50,49)
+
+claro - rgb (255,144,77)*/
