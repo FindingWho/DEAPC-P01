@@ -1,7 +1,7 @@
 <nav class="menu-nav">
     <div class="container">
         <div class="logo">
-            <img src="images/temp-logo.jpg" alt="">
+            <img src="images/icon.png" alt="">
         </div> <!-- logo -->
       
         <div class="site_name">
