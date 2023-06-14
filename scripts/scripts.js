@@ -25,7 +25,7 @@ $(document).ready(function(){
 		$(this).toggleClass('zoomfilter');
 	})
 
-	$(window).scroll(function() {
+	/*$(window).scroll(function() {
 		if ($(window).scrollTop() > 80) {
 			$('.menu-nav').addClass('scroll');
 		}
@@ -33,7 +33,7 @@ $(document).ready(function(){
 			$('.menu-nav').removeClass('scroll');
 		}
 
-	})
+	})*/
 
 	$('.live-search').keyup(function() {
 		var input = $(this).val();
