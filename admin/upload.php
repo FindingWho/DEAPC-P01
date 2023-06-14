@@ -24,13 +24,16 @@
             if ($fileError === 0) {
                 if ($fileSize < 16777215) {
                     $fileNameNew = uniqid('', true).".".$fileActualExt;
-                    $sql = "INSERT INTO product (title, price, image, stock, sn, des) VALUES ('$title', '$price', '$fileTmpName', '$stock', '$sn', '$desc')";
+                    $sql = "INSERT INTO product (title, price, image, stock, sn, descri) VALUES ('$title', '$price', '$fileTmpName', '$stock', '$sn', '$desc')";
 
                     if (mysqli_query($conn, $sql)){
-                        echo '<script> tempAlert("Success", 3000)</script>';
+                        echo '<script> alert("Success")</script>';
+                        header("Location: index.php?uploadsuccess");
+                    } else {
+
                     }
                     
-                    header("Location: index.php?uploadsuccess");
+                    
                 } else {
                     echo "Your file is too POWERFUL";
                 }

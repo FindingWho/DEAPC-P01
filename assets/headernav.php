@@ -2,14 +2,17 @@
     <div class="container">
         
         <div class="logo">
-            <img src="images/icon.png" alt="">
+            <a href="index.php"><img src="images/icon.png" alt=""></a>
         </div> <!-- logo -->
-      
+      e
         <div class="search-container">
             <div class="searchbar">
-                <input type="text" placeholder="Search..." name="search">
+                <input class="live-search" type="text" placeholder="Search..." name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </div> <!-- searchbar -->
+            <div class="dropdown">
+
+            </div>
         </div> <!-- search-container -->
 
         <div class="site_name">

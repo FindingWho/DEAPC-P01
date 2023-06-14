@@ -52,59 +52,55 @@ img {
 }
 
 
-
-* {
-
-  } 
-  .about-us {
+    .about-us {
     display: flex;
     align-items: center;
     height: 100vh;
     width: 100%;
     padding: 90px 0;
     background: #fff;
-  }
-  .pic {
+    }
+    .pic {
     height: auto;
     width: 400px;
     border-radius: 12px;
-  }
-  .about {
+    }
+    .about {
     width: 1130px;
     max-width: 85%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  .text {
+    }
+    .text {
     width: 540px;
-  }
-  .text h2 {
+    }
+    .text h2 {
     color: #333;
     font-size: 90px;
     font-weight: 600;
     margin-bottom: 10px;
-  }
-  .text h5 {
+    }
+    .text h5 {
     color: #333;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
-  }
-  span {
+    }
+    span {
     color: #4070f4;
     font-size: 22px;
-  }
-  .text p {
+    }
+    .text p {
     color: #333;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 1px;
-  }
-  
-=======
-/* Menu Navigation */
+    }
+
+
+    /* Menu Navigation */
 
 .menu-nav {
     position: fixed;
@@ -176,6 +172,10 @@ img {
     outline: none;
 }
 
+.dropdown {
+    color: white;
+}
+
 #cart {
     height: 48px;
     width: 48px;
@@ -243,3 +243,28 @@ img {
     
 }
 
+/* footer     -.-.-.-.-.-.-.-.-.- */
+
+
+.footer {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background: #000;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: cyan;
+}
+
+footer li {
+    padding: 10px;
+}

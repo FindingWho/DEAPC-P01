@@ -8,7 +8,22 @@ function tempAlert(msg,duration) {
     document.body.appendChild(el);
 }
 
-$("#fetcher").click(function(){
+$("#fetcher1").click(function(){
     $(".page-fetcher").load("adm-pages/add-product.php");
+    //alert("Is it working?");
+});
+
+$("#fetcher2").click(function(){
+    $(".page-fetcher").load("adm-pages/edit.php");
+    //alert("Is it working?");
+});
+
+$("#fetcher3").click(function(){
+    $(".page-fetcher").load("adm-pages/remove.php");
+    //alert("Is it working?");
+});
+
+$("#fetcher4").click(function(){
+    $(".page-fetcher").load("adm-pages/check-stock.php");
     //alert("Is it working?");
 });
