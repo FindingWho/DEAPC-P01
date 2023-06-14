@@ -15,13 +15,13 @@
           sets and educational backgrounds, we collaborate closely to ensure that our website incorporates cutting-edge
           design, user-friendly functionality, and robust performance. Our commitment to excellence drives us to
           constantly refine and enhance our work, pushing boundaries to deliver a product that exceeds expectations.</p>
+        <img src="images/scroll" class="scroll" />
       </div>
     </div>
+
   </section>
-  <section id="section05" class="demo">
-    <h1>Scroll Down Button #5</h1>
-    <a href="#section06"><span></span>Scroll</a>
-  </section>
+
+  <div class="arrow"></div>
   <section class="about-us">
     <div class="about">
       <img src="images/Rodrigo" class="pic" />
@@ -34,6 +34,7 @@
           technical proficiency to the team, ensuring that the website delivers an exceptional visual experience while
           maintaining optimal usability. His ability to translate complex ideas into compelling visuals sets our website
           apart from the rest.</p>
+        <img src="images/scroll" class="scroll" />
       </div>
     </div>
   </section>
@@ -50,10 +51,11 @@
           that the website is not only visually appealing but also functions flawlessly. His passion for creating
           efficient and user-friendly interfaces shines through in his work, making him an invaluable asset to our team.
         </p>
-
+        <img src="images/scroll" class="scroll" />
       </div>
     </div>
   </section>
+
 
   <section class="about-us">
     <div class="about">
