@@ -1,11 +1,30 @@
 function validate_email(email) {  
     let atposition=email.indexOf("@");  
-    let dotposition=email.lastIndexOf(".");  
-    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+    let dotposition=email.lastIndexOf(".");
+
+    if (email==""){
+        document.getElementsByClassName( "errorMessageEmail" )[0].innerHTML = "Please fill out this field.";
+        return false;
+    } else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length){  
         document.getElementsByClassName( "errorMessageEmail" )[0].innerHTML = "Please enter a valid e-mail address";  
-    return false;  
-    }  
-}  
+        return false;  
+    } 
+    return true;
+}
+
+function validate_name(name) {  
+    let numericPattern = /\d/;
+    let specialCharPattern = /["!@#£$§%^&*(),.?;:{}€'=»«+\\\-|<>]/;
+
+    if(name==""){
+        document.getElementsByClassName( "errorMessageName" )[0].innerHTML = "Please fill out this field.";
+        return false;
+    } else if (numericPattern.test(name) || specialCharPattern.test(name)) {
+        document.getElementsByClassName( "errorMessageName" )[0].innerHTML = "The name can't contain numbers nether special characters.";
+        return false;
+    }
+    return true;
+}
 
 function validate_form(){
     document.getElementsByClassName( "errorMessageName" )[0].style.visibility = "hidden";
@@ -20,38 +39,21 @@ function validate_form(){
     let email = document.getElementById("Email").value;
     let pass = document.getElementById("Pass").value;
 
-    let numericPattern = /\d/;
-    let specialCharPattern = /["!@#£$§%^&*(),.?;:{}€'=»«+\\\-|<>]/;
-
-
-    if(name==""){
-        document.getElementsByClassName( "errorMessageName" )[0].style.visibility = "visible";
-        document.getElementsByClassName( "errorMessageName" )[0].innerHTML = "Please fill out this field.";
-        document.getElementById("Name").style.borderColor = "red";
-    } else if (numericPattern.test(name) || specialCharPattern.test(name)) {
-        document.getElementsByClassName( "errorMessageName" )[0].style.visibility = "visible";
-        document.getElementsByClassName( "errorMessageName" )[0].innerHTML = "The name can't contain numbers nether special characters.";
-        document.getElementById("Name").style.borderColor = "red";
-    }
-
-    if(email==""){
-        document.getElementsByClassName( "errorMessageEmail" )[0].style.visibility = "visible";
-        document.getElementsByClassName( "errorMessageEmail" )[0].innerHTML = "Please fill out this field.";
-        document.getElementById("Email").style.borderColor = "red";
-    } else if (!validate_email(email)){
+    if (!validate_email(email)){
         document.getElementsByClassName( "errorMessageEmail" )[0].style.visibility = "visible";
         document.getElementById("Email").style.borderColor = "red";
     }
 
+    if (!validate_name(name)){
+        document.getElementsByClassName( "errorMessageName" )[0].style.visibility = "visible";
+        document.getElementById("Name").style.borderColor = "red";
+    }
+    
     if (pass==""){
         document.getElementsByClassName( "errorMessagePass" )[0].style.visibility = "visible";
         document.getElementsByClassName( "errorMessagePass" )[0].innerHTML = "Please fill out this field.";
         document.getElementById("Pass").style.borderColor = "red";
-    } else if(email != "admin" || pass !="1234"){
-        document.getElementsByClassName( "errorMessagePass" )[0].style.visibility = "visible";
-        document.getElementsByClassName( "errorMessagePass" )[0].innerHTML = "Email or Password incorrect!";
-        document.getElementById("Pass").style.borderColor = "red";
-    } else{
-        window.location.replace("index.php");
+        return false;
     }
+    return true;
 }
