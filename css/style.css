@@ -6,6 +6,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -50,6 +51,59 @@ img {
     height: 600px;
 }
 
+
+
+* {
+
+  } 
+  .about-us {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #fff;
+  }
+  .pic {
+    height: auto;
+    width: 400px;
+    border-radius: 12px;
+  }
+  .about {
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text {
+    width: 540px;
+  }
+  .text h2 {
+    color: #333;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .text h5 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span {
+    color: #4070f4;
+    font-size: 22px;
+  }
+  .text p {
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  
+=======
 /* Menu Navigation */
 
 .menu-nav {
@@ -188,3 +242,4 @@ img {
     transform: scale(1.08);
     
 }
+
