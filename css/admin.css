@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    word-break: break-word;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1584px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.page-divider {
+    display: flex;
+}
+
+.page-fetcher {
+    display: flex;
+}
+
+.navbar {
+    background: #f3f3e2;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 100vh;
+    background: #e6e6e6;
+}
+
+.sidebar .control {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar .control li {
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.sidebar a:hover {
+    color: rgb(18, 112, 235);
+
+}
+
+
+.padding-top-15px {
+    padding-top: 15px;
+}
+
+.padding-top-25px{
+    padding-top: 25px;
+}
+
+.padding-bottom-15px{
+    padding-bottom: 15px;
+}
+
+.padding-bottom-25px{
+    padding-bottom: 25px;
+}
+
+.margin-top-25px {
+    margin-top: 25px;
+}
