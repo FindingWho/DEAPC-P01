@@ -88,3 +88,12 @@ html, body {
 .margin-top-25px {
     margin-top: 25px;
 }
+
+.upload {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload input {
+    margin-bottom: 15px;
+}

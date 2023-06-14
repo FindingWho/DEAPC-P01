@@ -1,5 +1,17 @@
-<footer>
+<footer class="footer">
+    <div class="left">
+        <ul>
+            <a href="aboutus.php"><li>About us</li></a>
+            <a href="aboutus.php"><li>Who are we?</li></a>
+        </ul>
+    </div>
 
+    <div class="right">
+        <ul>
+            <a href="#"><li>Work with us</li></a>
+            <a href="#"><li>Work with us</li></a>
+        </ul>
+    </div>
 </footer>
 
 <!-- SCRIPTS -->

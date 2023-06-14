@@ -12,11 +12,13 @@
 <div class="page-divider">
   <nav class="sidebar padding-top-25px">
     <ul class="control">
-      <a href="#" id="fetcher"><li>Add Product</li></a>
+      <a href="#" id="fetcher1"><li>Add Product</li></a>
       <hr>
-      <a href="#"><li>Remove Product</li></a>
+      <a href="#" id="fetcher2"><li>Edit Product</li></a>
       <hr>
-      <a href="#"><li>Check Stock</li></a>
+      <a href="#" id="fetcher3"><li>Remove Product</li></a>
+      <hr>
+      <a href="#" id="fetcher4"><li>Check Stock</li></a>
     </ul>
   </nav>
 

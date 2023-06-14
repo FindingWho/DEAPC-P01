@@ -34,4 +34,22 @@ $(document).ready(function(){
 		}
 
 	})
+
+	$('.live-search').keyup(function() {
+		var input = $(this).val();
+		if (input != '') {
+			$.ajax({
+				url:"livesearch.php",
+				method: "POST",
+				data:{input:input},
+
+				success:function(data){
+					$('.dropdown').css('display','block');
+					$('.dropdown').html(data);
+				}
+			})
+		} else {
+			$('.dropdown').css('display','none');
+		}
+	});
 });
